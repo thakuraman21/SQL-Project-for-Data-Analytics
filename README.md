@@ -36,11 +36,22 @@ Valid PAN: If the PAN number matches the above format. Invalid PAN: If the PAN n
 ## 4. Tasks:
 Validate the PAN numbers based on the format mentioned above. Create two separate categories:
 
- Valid PAN
- Invalid PAN
+ #Valid PAN
+ #Invalid PAN
+
+ ## Project Workflow :
+1. Import raw PAN dataset into staging table
+2. Clean and standardize data
+3. Remove null and duplicate records
+4. Validate PAN structure using regex
+5. Apply custom validation logic
+6. Categorize records as Valid/Invalid 
+
 
 ## Create a summary report that provides the following:
 Total records processed
 Total valid PANs
 Total invalid PANs
 Total missing or incomplete PANs (if applicable)
+
+
