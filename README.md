@@ -36,8 +36,8 @@ Valid PAN: If the PAN number matches the above format. Invalid PAN: If the PAN n
 ## 4. Tasks:
 Validate the PAN numbers based on the format mentioned above. Create two separate categories:
 
-Valid PAN
-Invalid PAN
+ Valid PAN
+ Invalid PAN
 
 ## Create a summary report that provides the following:
 Total records processed
