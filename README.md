@@ -49,9 +49,9 @@ Validate the PAN numbers based on the format mentioned above. Create two separat
 
 
 ## Create a summary report that provides the following:
-Total records processed
-Total valid PANs
-Total invalid PANs
-Total missing or incomplete PANs (if applicable)
+1. Total records processed
+1. Total valid PANs
+3. Total invalid PANs
+4. Total missing or incomplete PANs (if applicable)
 
 
